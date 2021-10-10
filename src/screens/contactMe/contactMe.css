@@ -1,0 +1,26 @@
+.contactMe__container {
+  background-color: var(--nav-color);
+  color: aliceblue;
+  padding: 1rem;
+}
+
+.contactMe__data__links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contactMe__data__links a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contactMe__data__links a:hover {
+  color: var(--light-color);
+}
+
+@media only screen and (max-width: 600px){
+  .contactMe__data__links {
+    flex-direction: column;
+  }
+}

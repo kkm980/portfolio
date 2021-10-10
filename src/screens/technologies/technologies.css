@@ -1,0 +1,42 @@
+.technologies__container {
+  background-color: var(--light-color);
+  color: var(--nav-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.tech__cards__container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 1rem 0;
+}
+
+.tech__card {
+  width: 15rem;
+  height: 10rem;
+  background-color: var(--font-color);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border-bottom: 5px solid var(--nav-color);
+  transition: all 0.1s;
+}
+
+.tech__icons {
+  height: 70px;
+  background-color: var(--light-color);
+  border-radius: 50%;
+}
+
+.tech__card:hover {
+  background-color: var(--font-color-hover);
+  transform: scale(1.05);
+}
