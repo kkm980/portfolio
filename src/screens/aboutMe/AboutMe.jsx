@@ -31,7 +31,7 @@ function AboutMe() {
      </div>
      <div className="about__text">
        <h1>ABOUT ME</h1>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quia placeat eos atque veniam voluptatum sapiente ipsum tempore iste, omnis cumque velit autem consectetur. Veritatis molestias ullam voluptas nostrum? Dolorum.</p>
+       <p>Aspiring full-stack web developer with a specialization in MERN stack. Team player with continuous and contagious ability to adapt to the changing needs of the company.</p>
      </div>
     </div>
   )
