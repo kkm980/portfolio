@@ -9,7 +9,8 @@ function AboutMe() {
      <div className="firstRap">
       <img src={person} alt="person icon"/>
       <div>
-      <h1>Who am I?</h1>
+      <h1>Krishna Kant</h1>
+      <h3>Who am I?</h3>
       <Typed 
         strings={[
           " ", 

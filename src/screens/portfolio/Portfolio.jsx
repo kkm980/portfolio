@@ -52,6 +52,8 @@ function Portfolio() {
             setTempData({
               image: e.image,
               link: e.link,
+              gitlink: e.gitlink,
+              medlink: e.medlink,
               desc: e.desc,
               summary: e.summary,
               tech: e.tech

@@ -36,6 +36,8 @@
 }
 .about__text{
   max-width: 40%;
+  background-color: black;
+  padding: 5px 8px;
 }
 
 .about__text h1{
