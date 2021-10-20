@@ -27,8 +27,10 @@ function Portfolio() {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p>{data.summary}</p>
+          <div className="summary_desc">
           <Image src={data.image} style={{ width: '200px' }} />
+          <div>{data.summary}</div>
+          </div>
         </Modal.Body>
         <div style={{display:"flex", justifyContent:"flex-start"}}>
         <a className="portfolio__modal__link" href={data.link} target="_blank" rel="noreferrer">Site</a>
@@ -47,6 +49,7 @@ function Portfolio() {
   const mapped = portfolioData.map((e, idx) => {
     return (
       <Card key={idx} id="portfolio__card__container">
+         <h4 className="bold_text">{idx+1}. {e.desc}</h4>
         <Image className="portfolio__image"
           onClick={() => {
             setTempData({
@@ -73,7 +76,7 @@ function Portfolio() {
       <p>Explore more on my Github
         <a href="https://github.com/kkm980" target="_blank" rel="noreferrer"> https://github.com/kkm980</a>
       </p>
-      <Container fluid="lg" style={{ padding: '2rem 0' }}>
+      <Container fluid="lg" style={{ padding: '1rem 0' }}>
         <Row>
           {mapped}
         </Row>

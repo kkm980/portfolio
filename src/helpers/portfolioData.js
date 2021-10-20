@@ -13,7 +13,7 @@ const portfolioData = [
     gitlink:"https://github.com/kkm980/bluemercury/",
     medlink:"https://kantkrishna751.medium.com/clone-of-bluemercury-com-a11db8e05f3/",
     desc: 'BlueMercury Clone',
-    summary: 'Clone of BlueMercury.com to buy skincare, healthcare and spa products',
+    summary: 'Clone of BlueMercury.com to buy skincare, healthcare and spa products.',
     tech: 'HTML | CSS | JS | MongoDB | NodeJS | ExpressJS',
   },
   {

@@ -5,15 +5,23 @@
 .portfolio__main__container h1, 
 .portfolio__main__container p {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 #portfolio__card__container {
-  width: 50%;
+  border: 2px solid red;
+  width: 48%;
   padding: 10px;
   border: none;
+  background-color: rgb(236, 236, 236);
+  margin: 1rem 0.4rem;
 }
-
+.bold_text{
+  text-align: justify;
+  text-justify:inter-word;
+  
+  font-weight: bold;
+}
 .portfolio__image:hover {
   cursor: pointer;
   filter: brightness(50%);
@@ -42,6 +50,17 @@
 
 .portfolio__modal__link:link {
   text-decoration: none;
+}
+
+.summary_desc{
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.summary_desc>div{
+  margin-left: 1rem;
+  width:60%;
+  word-wrap: break-word;
 }
 
 @media only screen and (max-width: 600px){
