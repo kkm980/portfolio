@@ -10,17 +10,13 @@ function AboutMe() {
       <img src={person} alt="person icon"/>
       <div>
       <h1>Krishna Kant</h1>
-      <h3>Who am I?</h3>
       <Typed 
         strings={[
-          " ", 
-          "A Software Engineer", 
-          "Also known as an", 
-          "Front-end developer", 
-          "Back-end developer", 
-          "Full stack developer", 
-          "Or!", 
-          '"a coder"', 
+          " ",   
+          "Front-end web-developer", 
+          "Back-end web-developer", 
+          "Full stack web-developer",  
+          '"a software Engineer"', 
           " ", 
           " "]}
           typeSpeed={40}

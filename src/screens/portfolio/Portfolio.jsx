@@ -76,6 +76,9 @@ function Portfolio() {
       <p>Explore more on my Github
         <a href="https://github.com/kkm980" target="_blank" rel="noreferrer"> https://github.com/kkm980</a>
       </p>
+      <p>Pay a visit
+        <a href="https://bit.ly/3Ef3dU7" target="_blank" rel="noreferrer"> Resume</a>
+      </p>
       <Container fluid="lg" style={{ padding: '1rem 0' }}>
         <Row>
           {mapped}

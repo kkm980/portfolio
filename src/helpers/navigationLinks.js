@@ -4,10 +4,6 @@ export const navigationLinks = [
     ref: '#home'
   },
   {
-    name: 'ABOUT ME',
-    ref: '#about-me'
-  },
-  {
     name: 'SKILLS',
     ref: '#skills'
   },
@@ -15,6 +11,7 @@ export const navigationLinks = [
     name: 'PROJECTS',
     ref: '#projects'
   },
+  
   {
     name: 'CONTACT',
     ref: '#contact'
