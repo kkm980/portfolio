@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './portfolio.css'
 import portfolioData from '../../helpers/portfolioData'
 import Container from 'react-bootstrap/Container';
@@ -7,8 +7,16 @@ import Card from 'react-bootstrap/Card'
 import Image from 'react-bootstrap/Image'
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 
 function Portfolio() {
+  
+  useEffect(() => {
+    Aos.init({duration:1000});
+  }, [])
+
   const [modalShow, setModalShow] = useState(false);
   const [tempData, setTempData] = useState({})
 
@@ -48,7 +56,7 @@ function Portfolio() {
 
   const mapped = portfolioData.map((e, idx) => {
     return (
-      <Card key={idx} id="portfolio__card__container">
+      <Card data-aos={idx%2!==0?"fade-down-left":"fade-up-right"} key={idx} id="portfolio__card__container">
          <h4 className="bold_text">{idx+1}. {e.desc}</h4>
         <Image className="portfolio__image"
           onClick={() => {
@@ -73,10 +81,10 @@ function Portfolio() {
   return (
     <div className="portfolio__main__container" id="projects">
       <h1>PROJECTS</h1>
-      <p >Explore more on my Github
+      <p data-aos="fade-right">Explore more on my Github
         <a className="nextLink" style={{color:"black", textDecoration:"none"}} href="https://github.com/kkm980" target="_blank" rel="noreferrer"> https://github.com/kkm980</a>
       </p>
-      <p >Pay a visit
+      <p data-aos="fade-down" >Pay a visit
         <a className="nextLink" style={{color:"black",  textDecoration:"none"}} href="https://bit.ly/3Ef3dU7" target="_blank" rel="noreferrer"> Resume</a>
       </p>
       <Container fluid="lg" style={{ padding: '1rem 0' }}>
