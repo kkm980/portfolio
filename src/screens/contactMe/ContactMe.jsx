@@ -41,8 +41,8 @@ function ContactMe() {
 
       </div>
       <div style={{display:"flex", flexWrap:"wrap",margin:"25px 0px",backgroundColor:"black", justifyContent:"center"}}>
-      <div data-aos="fade-right" style={{color:"white", marginRight:"25px"}}>Made with <FavoriteIcon sx={{ color: pink[500] }}/> in India</div>
-      <div  data-aos="fade-left" style={{color:"white", textAlign:'center'}}>No Copyright&copy; Feel free to learn. Any doubt?<a style={{textDecoration:"none", color:"white", textTransform:"none"}} rel="noreferrer" href="https://bit.ly/3duDJaL" target="_blank"> Ping me  <WhatsAppIcon/></a></div>
+      <div data-aos="zoom-in" style={{color:"white", marginRight:"25px"}}>Made with <FavoriteIcon sx={{ color: pink[500] }}/> in India</div>
+      <div  data-aos="fade-right" style={{color:"white", textAlign:'center'}}>No Copyright&copy; Feel free to learn. Any doubt?<a style={{textDecoration:"none", color:"white", textTransform:"none"}} rel="noreferrer" href="https://bit.ly/3duDJaL" target="_blank"> Ping me  <WhatsAppIcon/></a></div>
       </div>
     </div>
     </>

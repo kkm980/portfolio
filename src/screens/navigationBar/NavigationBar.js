@@ -30,7 +30,7 @@ function NavigationBar() {
         <Navbar.Brand data-aos="slide-right" style={{ marginLeft: '1rem' }} href="#home">Krishna Kant</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse style={{ justifyContent: 'flex-end', marginRight: '1rem', borderColor: 'none' }}>
-          <Nav data-aos="slide-left" className="links" style={{ margin: '0 1rem' }}>
+          <Nav data-aos="slide-right" className="links" style={{ margin: '0 1rem' }}>
             {createLinks()}
             <Nav.Link key={10} target="_blank" href="https://drive.google.com/file/d/1-6O2k6E9uxvXtU-itfhcmE1OpC7-Oa6r/view?usp=sharing">RESUME</Nav.Link>
           </Nav>

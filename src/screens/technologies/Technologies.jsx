@@ -22,8 +22,8 @@ function Technologies() {
         {techs.map((e, idx) => {
           return (
             <div data-aos="zoom-in" key={idx} className="tech__card">
-              <DevIcon className="tech__icons" icon={e.iconName} />
-              <span data-aos={idx%2!==0?"fade-right":"fade-left" } style={{ margin: '5px', fontSize: '1.5rem'}}>{e.name}</span>
+              <DevIcon data-aos="fade-bottom" className="tech__icons" icon={e.iconName} />
+              <span data-aos="fade-right" style={{ margin: '5px', fontSize: '1.5rem'}}>{e.name}</span>
             </div>
           )
         })}

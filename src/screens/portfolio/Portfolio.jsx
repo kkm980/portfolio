@@ -56,7 +56,7 @@ function Portfolio() {
 
   const mapped = portfolioData.map((e, idx) => {
     return (
-      <Card data-aos={idx%2!==0?"fade-down-left":"fade-up-right"} key={idx} id="portfolio__card__container">
+      <Card data-aos={idx%2!==0?"fade-down":"fade-up"} key={idx} id="portfolio__card__container">
          <h4 className="bold_text">{idx+1}. {e.desc}</h4>
         <Image className="portfolio__image"
           onClick={() => {
@@ -87,7 +87,7 @@ function Portfolio() {
       <p data-aos="fade-down" >Pay a visit
         <a className="nextLink" style={{color:"black",  textDecoration:"none"}} href="https://bit.ly/3Ef3dU7" target="_blank" rel="noreferrer"> Resume</a>
       </p>
-      <Container fluid="lg" style={{ padding: '1rem 0' }}>
+      <Container fluid="lg" style={{width:"90%", padding: '1rem 0' }}>
         <Row>
           {mapped}
         </Row>
