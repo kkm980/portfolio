@@ -9,7 +9,7 @@ import Himalayausa from "../images/projectsicon/Himalayausa.png"
 const portfolioData = [
   {
     image:  Bluemercury,
-    link: 'https://himalayasusa-clone-krishnakantmishra980-gmailcom.vercel.app/',
+    link: 'https://drive.google.com/file/d/1qiPClPEqAAbUyTHNSMYQssOJvAdNQGsI/view?usp=sharing.app/',
     gitlink:"https://github.com/kkm980/bluemercury/",
     medlink:"https://kantkrishna751.medium.com/clone-of-bluemercury-com-a11db8e05f3/",
     desc: 'BlueMercury Clone',
@@ -19,7 +19,7 @@ const portfolioData = [
   {
     image:  Himalayausa,
     link: 'https://himalayasusa-clone-krishnakantmishra980-gmailcom.vercel.app/',
-    gitlink: "https://github.com/kkm980/himalayaFront-end/",
+    gitlink: "https://github.com/kkm980/himbackend",
     medlink:"https://kantkrishna751.medium.com/building-himalayausa-com-clone-ee3dfa567e68/",
     desc: 'Clone of Himalayausa',
     summary: 'Clone of Himalayausa to buy herbal products for healthcare',

@@ -73,11 +73,11 @@ function Portfolio() {
   return (
     <div className="portfolio__main__container" id="projects">
       <h1>PROJECTS</h1>
-      <p>Explore more on my Github
-        <a href="https://github.com/kkm980" target="_blank" rel="noreferrer"> https://github.com/kkm980</a>
+      <p >Explore more on my Github
+        <a className="nextLink" style={{color:"black", textDecoration:"none"}} href="https://github.com/kkm980" target="_blank" rel="noreferrer"> https://github.com/kkm980</a>
       </p>
-      <p>Pay a visit
-        <a href="https://bit.ly/3Ef3dU7" target="_blank" rel="noreferrer"> Resume</a>
+      <p >Pay a visit
+        <a className="nextLink" style={{color:"black",  textDecoration:"none"}} href="https://bit.ly/3Ef3dU7" target="_blank" rel="noreferrer"> Resume</a>
       </p>
       <Container fluid="lg" style={{ padding: '1rem 0' }}>
         <Row>

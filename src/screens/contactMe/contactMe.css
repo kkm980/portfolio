@@ -1,7 +1,9 @@
 .contactMe__container {
- background-color: rgb(98, 93, 93);
+  /* background-color: var(--nav-color); */
   /* color: rgb(0, 0, 0); */
   padding: 1rem;
+  
+  
  
 }
 
@@ -14,7 +16,11 @@
 }
  .contactMe__data__links>p{
   transition: all 1s linear;
+  padding:0px 5px;
   transform: scaleZ(10);
+  box-shadow: 10px 15px 32px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 15px 32px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 15px 32px 2px rgba(0,0,0,0.75);
   /* cursor: pointer;  */
 }
 

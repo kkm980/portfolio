@@ -18,22 +18,22 @@ function ContactMe() {
   return (
     <>
     <div className="contactMe__container" style={{
-      color: "rgb(0, 0, 0)",
-      padding: "1rem", marginTop:"0px",paddingTop:"10px", backgroundColor:"gray"}} id="contact">
-    <h1 style={{ marginTop:"0px",paddingTop:"0px", textAlign: 'center'}}>CONTACT ME</h1>
-    <h4 style={{marginBottom:"1px"}}>Hey, I love collaborating with new people, adapting with emerging technologies and exploring places. What about a coffee with me?</h4>
+      color: "white",
+      padding: "1rem", marginTop:"0px",paddingTop:"10px"}} id="contact">
+    <h1 style={{ marginBottom:"30px",marginTop:"0px",paddingTop:"0px",color:"black", textAlign: 'center'}}>CONTACT ME</h1>
+    <h4 style={{marginLeft:"25%", marginBottom:"30px",width:"50%",color:"black", textWrap:"wrap"}}>Hey, I love collaborating with new people, adapting with emerging technologies and exploring places. What about a cup of coffee with me?</h4>
 
       <div className="contactMe__data__links" style={{display:"flex", flexWrap:"wrap"}}>
 
-        <p> <a style={{textDecoration:"none", textTransform:"none"}} rel="noreferrer" href="mailto:kantkrishna@gmail.com?subject=Let us connect for future prospects" target="_blank">Send me a<MailOutlineIcon sx={{ fontSize: 40 }}/></a></p>
+        <p> <a style={{textDecoration:"none", textTransform:"none"}} rel="noreferrer" href="mailto:kantkrishna@gmail.com?subject=Let us connect for future prospects" target="_blank">Send me a<MailOutlineIcon sx={{ fontSize: 30 }}/></a></p>
 
-        <p><a style={{textDecoration:"none", textTransform:"none"}} href="tel:+919801184456">Click to<CallIcon sx={{ fontSize: 40 }}/>8921277536</a></p>
+        <p><a style={{textDecoration:"none", textTransform:"none"}} href="tel:+919801184456">Click to<CallIcon sx={{ fontSize: 30 }}/>8921277536</a></p>
 
-        <p><a rel="noreferrer" style={{textDecoration:"none", textTransform:"none"}} href="https://kantkrishna751.medium.com/" target="_blank">Read on <DvrIcon sx={{ fontSize: 40 }}/></a></p>
+        <p><a rel="noreferrer" style={{textDecoration:"none", textTransform:"none"}} href="https://kantkrishna751.medium.com/" target="_blank">Read on <DvrIcon sx={{ fontSize: 30 }}/></a></p>
 
-        <p><a rel="noreferrer" style={{textDecoration:"none", textTransform:"none"}} href="https://github.com/kkm980" target="_blank">Find me here <GitHubIcon sx={{ fontSize: 40 }}/></a></p>
+        <p><a rel="noreferrer" style={{textDecoration:"none", textTransform:"none"}} href="https://github.com/kkm980" target="_blank">Find me here <GitHubIcon sx={{ fontSize: 30 }}/></a></p>
 
-        <p><a rel="noreferrer" style={{textDecoration:"none", textTransform:"none"}} href="https://www.linkedin.com/in/krishna980/" target="_blank">Let's connect on<LinkedInIcon sx={{ fontSize: 40 }}/></a></p>
+        <p><a rel="noreferrer" style={{textDecoration:"none", textTransform:"none"}} href="https://www.linkedin.com/in/krishna980/" target="_blank">Let's connect on<LinkedInIcon sx={{ fontSize: 30 }}/></a></p>
 
       </div>
       <div style={{display:"flex", flexWrap:"wrap",margin:"25px 0px",backgroundColor:"black", justifyContent:"center"}}>

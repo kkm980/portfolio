@@ -1,5 +1,6 @@
 .portfolio__main__container {
   background-color: #F9F3DF;
+  padding-bottom: 50px;
 }
 
 .portfolio__main__container h1, 
@@ -9,18 +10,27 @@
  
 }
 
+.nextLink{
+  box-shadow: 10px 15px 32px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 15px 32px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 15px 32px 2px rgba(0,0,0,0.75);
+}
+
 #portfolio__card__container {
+  box-shadow: 10px 15px 32px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 15px 32px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 15px 32px 2px rgba(0,0,0,0.75);
   background-color: black;
   width: 48%;
   padding: 10px;
   border: none;
   background-color: rgb(236, 236, 236);
-  margin: 1rem 0.4rem;
+  margin: 1rem 0.5rem;
 }
 .bold_text{
   text-align: justify;
   text-justify:inter-word;
-  
+  padding-bottom: 15px;
   font-weight: bold;
 }
 .portfolio__image:hover {
