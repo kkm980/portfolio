@@ -29,7 +29,7 @@ function ContactMe() {
 
       <div data-aos="slide-up" className="contactMe__data__links" style={{display:"flex", flexWrap:"wrap"}}>
 
-        <p   > <a  style={{textDecoration:"none", textTransform:"none"}} rel="noreferrer" href="mailto:kantkrishna@gmail.com?subject=Let us connect for future prospects" target="_blank">Send me a<MailOutlineIcon sx={{ fontSize: 30 }}/></a></p>
+        <p   > <a  style={{textDecoration:"none", textTransform:"none"}} rel="noreferrer" href="mailto:kantkrishna751@gmail.com?subject=Let us connect for future prospects" target="_blank">Send me a<MailOutlineIcon sx={{ fontSize: 30 }}/></a></p>
 
         <p  ><a  style={{textDecoration:"none", textTransform:"none"}} href="tel:+919801184456">Click to<CallIcon sx={{ fontSize: 30 }}/>8921277536</a></p>
 
