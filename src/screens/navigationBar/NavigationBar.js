@@ -21,6 +21,8 @@ function NavigationBar() {
     Aos.init({duration:1000});
   }, [])
 
+
+  
   return (
     <div id="home">
       <Navbar className="navigation__container" style={{
