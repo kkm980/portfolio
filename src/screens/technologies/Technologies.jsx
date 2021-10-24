@@ -3,7 +3,7 @@ import './technologies.css'
 import { useEffect } from 'react';
 import DevIcon from "devicon-react-svg";
 import {techs} from '../../helpers/techs'
-
+// import {Fa500Px } from "react-icons/fa";
 import Aos from "aos"
 import "aos/dist/aos.css"
 
@@ -22,7 +22,9 @@ function Technologies() {
         {techs.map((e, idx) => {
           return (
             <div data-aos="zoom-in" key={idx} className="tech__card">
-              <DevIcon data-aos="fade-bottom" className="tech__icons" icon={e.iconName} />
+             
+              <img data-aos="fade-left" src={e.iconName} alt=""/>
+              
               <span  data-aos="fade-right" className="card_text_names" style={{ margin: '5px'}}>{e.name}</span>
             </div>
           )
