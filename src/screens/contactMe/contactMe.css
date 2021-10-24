@@ -27,7 +27,7 @@
 
 .contactMe__data__links>p:hover{
   /* border: 1px solid red; */
-  background-color:rgb(173, 168, 168);
+  background-color:rgb(16, 78, 70);
   border-radius: 40%;
   
 }
@@ -44,7 +44,28 @@
 }
 
 @media only screen and (max-width: 600px){
-  .contactMe__data__links>p {
-    margin: 0 5px;
+
+  .contactMe__data__links>{
+    justify-content: flex-start;
   }
+
+  /* .contactMe__data__links>p {
+    margin: 5px 2px;
+  } */
+
+  .contactMe__data__links>p:hover{
+    /* border: 1px solid red; */
+    background-color:rgb(16, 78, 70);
+    border-radius: 40%;
+    
+  }
+
+}
+
+@media only screen and (max-width: 360px){
+
+  .contactMe__data__links>p {
+    margin: 5px 2px;
+  }
+
 }

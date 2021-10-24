@@ -25,7 +25,8 @@ function ContactMe() {
       color: "white",
       padding: "1rem", marginTop:"0px",paddingTop:"10px"}} id="contact">
     <h1 data-aos="fade-top" style={{ marginBottom:"30px",marginTop:"0px",paddingTop:"0px",color:"black", textAlign: 'center'}}>CONTACT ME</h1>
-    <h4 data-aos="fade-right" style={{marginLeft:"25%",marginTop:"60px", marginBottom:"30px",width:"50%",color:"black", textWrap:"wrap"}}>Hey, I love collaborating with new people, adapting with emerging technologies and exploring places. What about a cup of coffee with me?</h4>
+    <h4 data-aos="fade-right" style={{marginLeft:"25%",marginTop:"60px", marginBottom:"30px",width:"50%",color:"black", textAlign: "justify",
+    textJustify: "inter-word",  textWrap:"wrap"}}>Hey, I love collaborating with new people, adapting with emerging technologies and exploring places. What about a cup of coffee with me?</h4>
 
       <div data-aos="slide-up" className="contactMe__data__links" style={{display:"flex", flexWrap:"wrap"}}>
 
