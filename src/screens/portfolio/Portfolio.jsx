@@ -7,9 +7,11 @@ import Card from 'react-bootstrap/Card'
 import Image from 'react-bootstrap/Image'
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
+
 import Aos from "aos"
 import "aos/dist/aos.css"
 
+import system from "../../helpers/img/system.gif"
 
 function Portfolio() {
   
@@ -80,7 +82,7 @@ function Portfolio() {
 
   return (
     <div className="portfolio__main__container" id="projects">
-      <h1>PROJECTS</h1>
+      <h1>PROJECTS <img src={system} height="30px" alt=""/></h1>
       <p data-aos="fade-right">Explore more on 
         <a className="nextLink" style={{color:"black", textDecoration:"none"}} href="https://github.com/kkm980" target="_blank" rel="noreferrer">Github</a>
       </p>

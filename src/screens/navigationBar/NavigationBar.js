@@ -27,7 +27,7 @@ function NavigationBar() {
         zIndex: '2', position: 'fixed', top: '0', width: '100%'
       }} collapseOnSelect
         expand="md">
-        <img  data-aos="slide-right" style={{height:"35px", marginLeft: '1rem' }} href="#home" src={siglog} alt=""/>
+        <img  data-aos="slide-right" style={{height:"30px", marginLeft: '1rem' }} href="#home" src={siglog} alt=""/>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse style={{ justifyContent: 'flex-end', marginRight: '1rem', borderColor: 'none' }}>
           <Nav data-aos="slide-right" className="links" style={{ margin: '0 1rem' }}>

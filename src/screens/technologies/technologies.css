@@ -30,6 +30,12 @@
   transition: all 0.1s;
 }
 
+.icon__img__box{
+  background-color: rgb(189, 177, 177);
+  border-radius: 50%;
+  padding:2px;
+}
+
 .tech__icons {
   height: 70px;
   background-color: var(--light-color);
