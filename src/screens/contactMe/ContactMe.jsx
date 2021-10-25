@@ -46,7 +46,7 @@ function ContactMe() {
         <p  ><a rel="noreferrer" style={{textDecoration:"none", textTransform:"none"}} href="https://www.linkedin.com/in/krishna980/" target="_blank">Let's connect on <img src={linkedin} height="30px" alt="linkedin"/></a></p>
 
       </div>
-      <div style={{display:"flex", flexWrap:"wrap",margin:"25px 0px",backgroundColor:"black", justifyContent:"center"}}>
+      <div style={{display:"flex", width:"100%", flexWrap:"wrap",margin:"25px 0px",padding:"5px 0px", backgroundColor:"black", justifyContent:"center"}}>
       <div style={{color:"white", marginRight:"25px"}}>Made with <FavoriteIcon sx={{ color: pink[500] }}/> in India</div>
       <div style={{color:"white", textAlign:'center'}}>No Copyright&copy; Feel free to learn. Any doubt?<a style={{textDecoration:"none", color:"white", textTransform:"none"}} rel="noreferrer" href="https://bit.ly/3duDJaL" target="_blank"> Ping me <img src={whatsapp} height="25px" alt="whatsapp"/></a></div>
       </div>
