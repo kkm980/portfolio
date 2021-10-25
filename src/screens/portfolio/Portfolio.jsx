@@ -84,10 +84,10 @@ function Portfolio() {
     <div className="portfolio__main__container" id="projects">
       <h1>PROJECTS <img src={system} height="30px" alt=""/></h1>
       <p data-aos="fade-right">Explore more on 
-        <a className="nextLink" style={{color:"black", textDecoration:"none"}} href="https://github.com/kkm980" target="_blank" rel="noreferrer">Github</a>
+        <a className="nextLink" style={{color:"black", marginLeft:"5px", textDecoration:"none"}} href="https://github.com/kkm980" target="_blank" rel="noreferrer">Github</a>
       </p>
       <p data-aos="fade-down" >Pay a visit 
-        <a className="nextLink" style={{color:"black",  textDecoration:"none"}} href="https://drive.google.com/file/d/1h1lo4pYnkjV70iCcAcdZU3AaoT-E-BEY/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+        <a className="nextLink" style={{color:"black" , marginLeft:"5px", textDecoration:"none"}} href="https://drive.google.com/file/d/1h1lo4pYnkjV70iCcAcdZU3AaoT-E-BEY/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
       </p>
       <Container fluid="lg" style={{width:"90%", padding: '1rem 0' }}>
         <Row>
