@@ -32,7 +32,7 @@ function NavigationBar() {
         <Navbar.Collapse style={{ justifyContent: 'flex-end', marginRight: '1rem', borderColor: 'none' }}>
           <Nav data-aos="slide-right" className="links" style={{ margin: '0 1rem' }}>
             {createLinks()}
-            <Nav.Link key={10} target="_blank" href="https://drive.google.com/file/d/1h1lo4pYnkjV70iCcAcdZU3AaoT-E-BEY/view?usp=sharing">RESUME</Nav.Link>
+            <Nav.Link key={10} target="_blank" href="https://drive.google.com/file/d/19h6MPKLE58JAZFjWwU9b1mh0bNT7Ye5B/view?usp=sharing">RESUME</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
