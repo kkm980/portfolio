@@ -2,6 +2,7 @@
 
 import Bluemercury from "../images/projectsicon/Bluemercury.png"
 import Himalayausa from "../images/projectsicon/Himalayausa.png"
+import inShorts from "../images/projectsicon/inShorts.png"
 
 
 //add project on top for latest
@@ -24,6 +25,16 @@ const portfolioData = [
     desc: 'Clone of Himalayausa',
     summary: 'Clone of Himalayausa to buy herbal products for healthcare',
     tech: 'REACT | MongoDB |  NodeJS | ExpressJS',
+   
+  },
+  {
+    image:  inShorts,
+    link: 'https://in-shorts-kkrishna.vercel.app/',
+    gitlink: "https://github.com/kkm980/inShorts",
+    medlink:"https://kantkrishna751.medium.com/building-himalayausa-com-clone-ee3dfa567e68/",
+    desc: 'Clone of Inshorts',
+    summary: 'Clone of InShorts to study daily news in shorts',
+    tech: 'REACT',
    
   },
   
