@@ -65,6 +65,15 @@
   .about__text{
     width: 40%;
   }
+  
+  .about__container img {
+   
+    width:85%;
+    /* height:58%; */
+  
+  }
+
+
 }
 
 
