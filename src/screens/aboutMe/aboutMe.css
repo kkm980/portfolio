@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center; */
-  margin: auto auto;
+  margin: 140px auto;
     display: flex;
     position: absolute;
     color: var(--font-color);
@@ -42,12 +42,25 @@
 
 .about__text h1{
  text-align: center;
+ font-weight: bolder;
 }
 .about__text p{
  text-align: justify;
+ font-size: 17px;
 }
 
 /*  ---------------- MEDIA QUERIES ----------- */
+
+/* @media screen and (max-width: 1364px), screen and (min-height: 901px) {
+  .about__container{
+    margin-left: 8%;
+  }
+  .about__text{
+    width: 40%;
+  }
+} */
+
+
 
 @media only screen and (max-width: 900px ){
   
@@ -91,5 +104,48 @@
     margin:1rem auto;
     
   }
+
+}
+
+@media only screen and (max-height: 618px ){
+  
+  .about__container img {
+    margin-top: 0rem;
+  }
+
+  .about__text {
+    max-width: 80%;
+    margin:0rem auto;
+    
+  }
+
+  .about__text p{
+    text-align: justify;
+    font-size: 100%;
+   }
+
+}
+   
+@media only screen and (max-height: 493px ){
+  .firstRap{
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .about__container img {
+    margin-top: 0rem;
+    padding-top: 0;
+  }
+
+  .about__text {
+    max-width: 100%;
+    margin:0rem auto;
+    
+  }
+
+  .about__text p{
+    text-align: justify;
+    font-size: 100%;
+   }
+   
 
 }

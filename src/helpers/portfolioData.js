@@ -28,7 +28,7 @@ const portfolioData = [
    
   },
   {
-    image:  inShorts,
+    image:  inShorts,   
     link: 'https://in-shorts-kkrishna.vercel.app/',
     gitlink: "https://github.com/kkm980/inShorts",
     medlink:"https://kantkrishna751.medium.com/building-himalayausa-com-clone-ee3dfa567e68/",

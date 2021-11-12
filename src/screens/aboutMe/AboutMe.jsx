@@ -16,7 +16,7 @@ function AboutMe() {
 
   return (
     <div className="about__container" id="about-me">
-     <div data-aos="slide-down" className="firstRap">
+     <div data-aos="fade-up" className="firstRap">
       <img  src={person} alt="person icon"/>
       <div data-aos="zoom-out">
       <h1>Krishna Kant</h1>
@@ -26,6 +26,7 @@ function AboutMe() {
           "Front-end web-developer", 
           "Back-end web-developer", 
           "Full stack web-developer",  
+          "Problem solver",  
           '"a software Engineer"', 
           " ", 
           " "]}
@@ -36,7 +37,7 @@ function AboutMe() {
       </div>
      
      </div>
-     <div data-aos="slide-up" className="about__text">
+     <div data-aos="fade-down" className="about__text">
        <h1>ABOUT ME</h1>
        <p>Aspiring full-stack web developer with a specialization in MERN stack. Team player with continuous and contagious ability to adapt to the changing needs of the company.</p>
      </div>
