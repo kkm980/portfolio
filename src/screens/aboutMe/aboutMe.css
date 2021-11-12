@@ -51,14 +51,14 @@
 
 /*  ---------------- MEDIA QUERIES ----------- */
 
-/* @media screen and (max-width: 1364px), screen and (min-height: 901px) {
+@media  screen and (min-width: 901px) {
   .about__container{
     margin-left: 8%;
   }
   .about__text{
     width: 40%;
   }
-} */
+}
 
 
 
