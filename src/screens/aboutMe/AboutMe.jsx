@@ -18,14 +18,14 @@ function AboutMe() {
     <div className="about__container" id="about-me">
      <div data-aos="fade-up" className="firstRap">
       <img  src={person} alt="person icon"/>
-      <div data-aos="zoom-out">
-      <h1>Krishna Kant</h1>
+      <div data-aos="zoom-out" className="typed">
+      <h1 >Krishna Kant</h1>
       <Typed 
         strings={[
           " ",   
-          "Front-end web-developer", 
-          "Back-end web-developer", 
-          "Full stack web-developer",  
+          "Front-end Web-developer", 
+          "Back-end Web-developer", 
+          "Full stack Web-developer",  
           "Problem solver",  
           '"a software Engineer"', 
           " ", 
