@@ -8,6 +8,7 @@ import orbitz from "../images/projectsicon/orbitz.png"
 import captchaMart from "../images/projectsicon/captchaMart.png"
 import tictactoe from "../images/projectsicon/tictactoe.png"
 import weatherApp from "../images/projectsicon/weatherApp.png"
+// import yetAtoDo from "../images/projectsicon/weatherApp.png"
 
 
 //add project on top for latest
@@ -16,7 +17,7 @@ const portfolioData = [
  
   {
     image:  Himalayausa,
-    link: 'https://himalayasusa-clone-krishnakantmishra980-gmailcom.vercel.app/',
+    link: 'https://himalayausa.vercel.app/',
     gitlink: "https://github.com/kkm980/himbackend",
     medlink:"https://kantkrishna751.medium.com/building-himalayausa-com-clone-ee3dfa567e68/",
     desc: 'Clone of Himalayausa',
