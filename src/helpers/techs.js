@@ -31,6 +31,10 @@ export const techs = [
     name: 'TypeScript',
     iconName: "https://img.icons8.com/color/48/000000/typescript.png"
   },
+  {
+    name: 'Tailwind',
+    iconName: "https://img.icons8.com/color/48/000000/tailwindcss.png"
+  },
 
   {
     name: 'WebSocket',
@@ -51,10 +55,6 @@ export const techs = [
     iconName:"https://img.icons8.com/color/48/000000/html-5--v1.png"
   },
   
-  {
-    name: 'Bootstrap',
-    iconName: "https://img.icons8.com/color/48/000000/bootstrap.png"
-  },
   {
     name: 'mySQL',
     iconName: "https://img.icons8.com/color/48/000000/maria-db.png"
