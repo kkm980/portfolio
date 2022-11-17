@@ -3,6 +3,22 @@
 
 export const techs = [
   {
+    name: 'Solidity',
+    iconName: "https://img.icons8.com/office/50/000000/solidity.png"
+  },
+  {
+    name: 'Ether.js',
+    iconName: "https://img.icons8.com/50/000000/ethereum.png"
+  },
+  {
+    name: 'Hardhat',
+    iconName: "https://img.icons8.com/color/50/000000/engineer"
+  },
+  {
+    name: 'Next.js',
+    iconName: "https://img.icons8.com/office/50/000000/next.png"
+  },
+  {
     name: 'React',
     iconName: "https://img.icons8.com/office/50/000000/react.png"
   },
@@ -14,11 +30,6 @@ export const techs = [
   {
     name: 'TypeScript',
     iconName: "https://img.icons8.com/color/48/000000/typescript.png"
-  },
-
-  {
-    name: 'AWS',
-    iconName: "https://img.icons8.com/color/48/000000/amazon-web-services.png"
   },
 
   {
@@ -57,10 +68,7 @@ export const techs = [
     name: 'Node',
     iconName: "https://img.icons8.com/fluency/48/000000/node-js.png"
   },
-  {
-    name: 'Mongoose',
-    iconName: 'https://img.icons8.com/color/48/000000/the-flash-head.png'
-  },
+  
   {
     name: 'Mongo DB',
     iconName: "https://img.icons8.com/color/48/000000/mongodb.png"
@@ -69,11 +77,7 @@ export const techs = [
   {
     name: 'Git',
     iconName:"https://img.icons8.com/color/48/000000/git.png"
-  },
-  {
-    name: 'NPM',
-    iconName: "https://img.icons8.com/color/48/000000/npm.png"
-  },
+  }
 ]
 
 
