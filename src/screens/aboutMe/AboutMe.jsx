@@ -39,7 +39,7 @@ function AboutMe() {
      </div>
      <div data-aos="fade-down" className="about__text">
        <h1>ABOUT ME</h1>
-       <p>Aspiring full-stack web developer with a specialization in MERN stack. Team player with continuous and contagious ability to adapt to the changing needs of the company.</p>
+       <p>With Solidity and Web3 learnings, currently working as a Full-stack web developer specializing in MERN stack, and looking forward to becoming a Blockchain developer. I am a Team player with the top-notch ability to adapt to the company's changing needs. I am looking for a Blockchain specialized platform where I can utilize my programming knowledge and skills to gain a deeper understanding and experience while adding value to product building.</p>
      </div>
     </div>
   )
