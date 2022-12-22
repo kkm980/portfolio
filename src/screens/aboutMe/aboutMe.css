@@ -61,9 +61,11 @@
 @media  screen and (min-width: 901px) {
   .about__container{
     margin-left: 8%;
+    /* height:60%; */
   }
   .about__text{
     width: 40%;
+
   }
   
   .about__container img {
@@ -94,7 +96,7 @@
   }
 
   .about__text {
-    max-width: 80%;
+    width: 100vw!;
     margin:5px auto;
     
   }
@@ -102,11 +104,11 @@
 }
 
 @media only screen and (max-width: 700px ){
-  .about__text {
+  /* .about__text {
     max-width: 80%;
     margin:2rem auto;
     
-  }
+  } */
 }
 
 @media only screen and (max-width: 320px ){
@@ -115,53 +117,46 @@
     margin-top: 0rem;
   }
 
-  .about__text {
+  /* .about__text {
     max-width: 80%;
     margin:1rem auto;
     
-  }
+  } */
 
 }
 
-@media only screen and (max-height: 618px ){
+
+@media screen and (max-width: 450px), screen and (max-height: 900px)
+/* @media only screen and (max-width:450px) and (max-height:900px ) */
+{
   
   .about__container img {
     margin-top: 0rem;
   }
 
   .about__text {
-    max-width: 80%;
+    max-width: 98%;
     margin:0rem auto;
     
   }
-
+   
+   
+   .about__text h1{
+    /* text-align: justify; */
+    font-size: 90%;
+   }
+   
   .about__text p{
     text-align: justify;
-    font-size: 100%;
+    font-size: 80%;
    }
 
 }
-   
-@media only screen and (max-height: 493px ){
-  .firstRap{
-    margin-top: 0;
-    padding-top: 0;
-  }
-  .about__container img {
-    margin-top: 0rem;
-    padding-top: 0;
-  }
 
-  .about__text {
-    max-width: 100%;
-    margin:0rem auto;
-    
-  }
 
-  .about__text p{
-    text-align: justify;
-    font-size: 100%;
-   }
-   
-
-}
+/* @media screen and (min-width: 350px) and (max-width: 900px) and (max-height:800px){
+  .about__text{
+    margin-top:10%;
+    /* display:none; */
+  /* } */
+/* }  */
