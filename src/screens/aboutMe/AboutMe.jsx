@@ -19,7 +19,7 @@ function AboutMe() {
      <div data-aos="fade-up" className="firstRap">
       <img  src={person} alt="person icon"/>
       <div data-aos="zoom-out" className="typed">
-      <h1 >Krishna Kant</h1>
+      <h2>Krishna Kant</h2>
       <Typed 
         strings={[
           " ",   
