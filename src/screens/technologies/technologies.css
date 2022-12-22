@@ -66,3 +66,11 @@
     width: 8rem;  
   }
 }
+
+
+@media only screen and (max-width: 412px ) and (max-height:580px){
+
+  .technologies__container {
+    margin-top:35%; 
+  }
+}
