@@ -87,7 +87,7 @@ function Portfolio() {
         <a className="nextLink" style={{color:"black", marginLeft:"10px", textDecoration:"none"}} href="https://github.com/kkm980" target="_blank" rel="noreferrer">Github</a>
       </p>
       <p data-aos="fade-down" >Pay a visit 
-        <a className="nextLink" style={{color:"black" , marginLeft:"10px", textDecoration:"none"}} href="http://bit.ly/krishnaKant_resume" target="_blank" rel="noreferrer">Resume</a>
+        <a className="nextLink" style={{color:"black" , marginLeft:"10px", textDecoration:"none"}} href="https://bit.ly/resume_krishnaKant" target="_blank" rel="noreferrer">Resume</a>
       </p>
       <Container fluid="lg" style={{width:"90%", padding: '1rem 0' }}>
         <Row>
